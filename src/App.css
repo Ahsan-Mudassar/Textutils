@@ -1,0 +1,7 @@
+.d-flex {
+    display: flex !important;
+    margin-left: auto !important;
+}
+.me-auto {
+       margin-left: 0px !important;
+}
