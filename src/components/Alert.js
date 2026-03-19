@@ -3,7 +3,7 @@ import React from 'react';
 
 import PropTypes from "prop-types";
 
-function Alert(props:any ) {
+function Alert(props) {
     const capitalize = (word = "") => {
         if (!word) return ""; // Check agar word empty hai
         const lower = word.toLowerCase();
