@@ -101,7 +101,7 @@ export default function Textform(props) {
         {/* <p> {text.trim() ? text.trim().split(/\s+/).length : 0} words and {text.replace(/\s+/g,"").length} characters</p> */}
         <p>  {text.trim().length === 0 ? "0" : text.trim().split(/\s+/).length / 200} minutes read</p>
         <h1>Preview</h1>
-        <p>{text.length > 0 ? text : "Enter something in the text area to preview it here"}</p>
+        <p className="border-sm">{text.length > 0 ? text : "Enter something in the text area to preview it here"}</p>
       </div>
     </>
   );

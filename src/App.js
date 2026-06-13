@@ -2,9 +2,6 @@
 import './App.css';
 
 import Alert from './components/Alert';
-
-import About from './components/About';
-
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 import React, { useState } from 'react';
@@ -19,10 +16,10 @@ function App() {
 
   // message: string aur type: string likhne se error chala jayega
   const showAlert = (message, type) => {
-      setAlert({
-        msg: message,
-        type: type
-      });
+    setAlert({
+      msg: message,
+      type: type
+    });
   };
 
   setTimeout(() => {
@@ -49,7 +46,6 @@ function App() {
       <Alert alert={alert} />
       <div className="container my-3">
         <Routes>
-          <Route path="/about" element={<About />} />
           <Route path="/" element={<Textform showAlert={showAlert} heading="Enter the text to analyze" />} />
         </Routes>
       </div>
