@@ -34,19 +34,19 @@ TextUtils App is fully responsive and works seamlessly across:
 
 ---
 
-## 🔗 Live Demo
+## Live Demo
 
-👉 [https://txtutills.netlify.app](https://txtutills.netlify.app)
-
----
-
-## 💻 GitHub Repository
-
-👉 [https://github.com/Ahsan-Mudassar](https://github.com/Ahsan-Mudassar)
+ [https://txtutills.netlify.app](https://txtutills.netlify.app)
 
 ---
 
-## 📦 Installation & Setup
+## GitHub Repository
+
+ [https://github.com/Ahsan-Mudassar](https://github.com/Ahsan-Mudassar)
+
+---
+
+## Installation & Setup
 
 Follow these steps to run the project locally:
 
